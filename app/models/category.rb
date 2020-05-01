@@ -1,3 +1,3 @@
 class Category < ApplicationRecord
-  has_ancestry
+  has_ancestry cache_depth: true
 end
